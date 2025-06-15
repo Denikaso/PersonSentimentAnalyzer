@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/  # Если не хотите делиться настройками VS Code для проекта
+
+# Data files
+data_processed/vk_parsed_data_temp.jsonl 
+data_processed/nlp_analysis_results_*.jsonl 
